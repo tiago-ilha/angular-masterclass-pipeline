@@ -29,9 +29,11 @@ jobs:
         run: npm run test:ci
 
       - name: Install Cypress
+        if: github.event_name != 'pull_request'
         run: npm install cypress
 
       - name: Run E2E Tests with Cypress
+        if: github.event_name != 'pull_request'
         uses: cypress-io/github-action@v6
         with:
           build: npm run build
