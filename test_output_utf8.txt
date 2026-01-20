@@ -1,0 +1,28 @@
+﻿
+> angular-masterclass-pipeline@0.0.0 test:ci
+> ng test --browsers=ChromeHeadless --watch=false
+
+[32m19 01 2026 23:23:28.714:INFO [karma-server]: [39mKarma v6.4.4 server started at http://localhost:9876/
+[32m19 01 2026 23:23:28.716:INFO [launcher]: [39mLaunching browsers ChromeHeadless with concurrency unlimited
+[32m19 01 2026 23:23:28.735:INFO [launcher]: [39mStarting browser ChromeHeadless
+[32m19 01 2026 23:23:30.162:INFO [Chrome Headless 144.0.0.0 (Windows 10)]: [39mConnected on socket mr2JcUO4NoBncH6pAAAB with id 67586345
+Chrome Headless 144.0.0.0 (Windows 10): Executed 0 of 7[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 1 of 7[32m SUCCESS[39m (0 secs / 0.097 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 2 of 7[32m SUCCESS[39m (0 secs / 0.103 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 3 of 7[32m SUCCESS[39m (0 secs / 0.107 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 4 of 7[32m SUCCESS[39m (0 secs / 0.136 secs)
+[1A[2K[31mChrome Headless 144.0.0.0 (Windows 10) PostFormComponent should submit form correctly FAILED[39m
+	TypeError: Cannot set properties of null (setting 'value')
+	    at UserContext.apply (src/app/post-form/post-form.component.spec.ts:41:16)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:398:28)
+	    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:2132:39)
+	    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:397:34)
+	    at ZoneImpl.run (node_modules/zone.js/fesm2015/zone.js:113:43)
+	    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:216:38)
+	    at UserContext.<anonymous> (node_modules/zone.js/fesm2015/zone-testing.js:234:32)
+	    at <Jasmine>
+Chrome Headless 144.0.0.0 (Windows 10): Executed 5 of 7[31m (1 FAILED)[39m (0 secs / 0.143 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 6 of 7[31m (1 FAILED)[39m (0 secs / 0.159 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 7 of 7[31m (1 FAILED)[39m (0 secs / 0.164 secs)
+[1A[2KChrome Headless 144.0.0.0 (Windows 10): Executed 7 of 7[31m (1 FAILED)[39m (0.181 secs / 0.164 secs)
+[31mTOTAL: 1 FAILED, 6 SUCCESS[39m
